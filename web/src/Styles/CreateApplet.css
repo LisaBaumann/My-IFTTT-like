@@ -1,0 +1,17 @@
+.createAppletContainer {
+    position: fixed;
+    width: 6%;
+    height: 12%;
+    background-color: #62ABF0;
+    left: 89%;
+    top: 82%;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.createAppletContainer:hover {
+    cursor: pointer;
+    background-color: #4A5CAA;
+}

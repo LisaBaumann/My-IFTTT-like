@@ -1,0 +1,73 @@
+.areasContainer {
+    /* background-color: red; */
+    /* margin-top: 5%; */
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.areaContainer {
+    /* background-color: blue; */
+    margin-top: 5%;
+    width: 28.66%;
+}
+
+.areaContainer2 {
+    /* background-color: blue; */
+    margin-left: 7%;
+    margin-top: 5%;
+    width: 28.66%;
+}
+
+
+.TEST:hover .area-content {
+    opacity: 0.6;
+    background-color: #2d2e38;
+}
+
+.TEST:hover .area-content img {
+    opacity: 0.2;
+}
+
+.TEST:hover #myAreaBin {
+    visibility: visible;
+}
+
+.TEST:hover h2 {
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+    position: absolute;
+    left: 5%;
+}
+
+.area {
+    background-color: #D3DCFF;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+}
+
+.area-content {
+    display: flex;
+    opacity: 1;
+    border-radius: 20px;
+}
+
+.area h2 {
+    visibility: hidden;
+}
+
+.area #myAreaBin {
+    visibility: hidden;
+}
+
+#myAreaBin:hover {
+    cursor: pointer;
+}
+
+#myAreaInfos:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,155 @@
+body {
+    background-color: #1C1E3D;
+}
+
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #1C1E3D;
+    border-bottom: 2px solid #3A3F86;
+    position: fixed;
+    z-index: 9999;
+    /* box-shadow: #3A3F86 0px 0px 0px 0px, #3A3F86 0px 0px 16px 0px; */
+}
+
+.headerLogo {
+    width: 9%;
+    height: 100%;
+    margin-left: 3%;
+}
+
+.headerLogo:hover {
+    cursor: pointer;
+}
+
+.Panel {
+    position: fixed;
+    right: 0.1%;
+    border-radius: 5%;
+    top: 10%;
+    width: 20%;
+    height: 40%;
+    background-color: #3A3F86;
+}
+
+.ButtonList {
+    position: relative;
+    top: 4%;
+}
+.StyleImg {
+    position: relative;
+    background-color: #1C1E3D;
+    width: 15%;
+    border-radius: 30px;
+    left: 10%;
+
+}
+.SettingButton, .DisplayModeButton, .HelpButton, .LogoutButton {
+    display: flex;
+}
+
+.SettingButton:hover, .DisplayModeButton:hover, .HelpButton:hover, .LogoutButton:hover {
+    cursor: pointer;
+
+}
+
+.SettingButton, .DisplayModeButton, .HelpButton {
+    margin-bottom: 5%;
+
+}
+.Setting, .DisplayMode, .Help, .Logout {
+    position: absolute;
+    left: 30%;
+    color: white;
+    font-family: Amoreiza;
+    font-weight: bold;
+
+}
+.Setting:hover, .DisplayMode:hover, .Help:hover, .Logout:hover {
+    color: #62ABF0;
+
+
+}
+.UserName {
+    position: relative;
+    width: 45%;
+    height: 10%;
+    background-color: #1C1E3D;
+    text-align: center;
+    justify-content: center;
+    left: 26%;
+    border-radius: 10px;
+}
+.UserNameStyle {
+    position: relative;
+    top: 15%;
+    color: white;
+
+}
+/* .headerTabsContainer {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 12%;
+    margin-top: 0.4%;
+}
+
+.headerTabsContainer h1 {
+    user-select: none;
+    margin-left: 80%;
+} */
+
+.headerTabs {
+    color: #D3DCFF;
+}
+
+.headerTabs:hover {
+    cursor: pointer;
+    color: #62ABF0;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.tabs {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.tab {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    user-select: none;
+}
+
+.tab-image {
+    width: 15%;
+    height: 15%;
+}
+
+.tab-title {
+    margin-left: 8%;
+    font-size: 175%;
+    color: #D3DCFF;
+    font-family: Amoreiza;
+}
+
+.tab-title:hover {
+    cursor: pointer;
+    color: #62ABF0;
+}
+
+.tabsContainer {
+    display: flex;
+    width: 50%;
+    margin-left: 15%;
+}
+
+.profileImage:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,78 @@
+.container {
+    width: 100%;
+}
+
+.title {
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+    color: #D3DCFF;
+    font-family: Amoreiza;
+}
+
+.ImgStyle {
+    position: relative;
+    background-color: #3A3F86;
+    width: 7%;
+    margin-right: 10%;
+    border-radius: 100px;
+}
+
+.info {
+    text-align: center;
+    justify-content: center;
+    font-family: Amoreiza;
+    font-size: 24px;
+    color: #D3DCFF;
+    margin-bottom: 3%;
+}
+
+.inputName, .inputSurname, .inputEmail, .inputPassword {
+    background-color: #3A3F86;
+    border-radius: 5px;
+    width: 35%;
+    height: 50px;
+    left: 33%;
+    position: relative;
+    margin-bottom: 2%;
+}
+
+.Name, .Surname, .Email, .Password {
+    position: relative;
+    top: -46%;
+    left: 1%;
+    color: #D3DCFF;
+    font-size: 18px;
+}
+
+.DisplayModeImage, .HelpImage {
+    margin-left: 3%;
+}
+
+.ButtonDisplayMode, .ButtonHelp {
+    margin-right: -40%;
+}
+
+.ImgStyle:hover {
+    background-color: #1C1E3D;
+    cursor: pointer;
+}
+
+.icon {
+
+    display: flex;
+    top: 5%;
+    left: 28%;
+    width: 50%;
+    position: relative;
+    justify-content: center;
+}
+
+.ModifImg:hover {
+    cursor: pointer;
+}
+
+.textInputText {
+    background-color: #1C1E3D;
+}
+

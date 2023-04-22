@@ -1,0 +1,79 @@
+.Action {
+    width: 50%;
+    background-color: #d3dcff;
+    margin-top: 20%;
+    border-radius: 10%;
+}
+
+.Action:hover {
+    background-color: #3A3F86;
+    cursor: pointer;
+}
+
+.ActionSelected {
+    width: 50%;
+    background-color: #d3dcff;
+    margin-top: 20%;
+    border-radius: 10%;
+}
+
+.ActionSelected:hover {
+    background-color: #3A3F86;
+}
+
+.validateApplet {
+    margin-left: 80%;
+    background-color: #282A4F;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+}
+
+.validateApplet:hover {
+    cursor: pointer;
+    background-color: #363860;
+}
+
+.penSelected:hover {
+    cursor: pointer;
+}
+
+.binSelected:hover {
+    cursor: pointer;
+}
+
+.addMoreReactions {
+    font-size: 24px;
+    color: #d3dcff;
+    position: absolute;
+    left: 25%;
+    top: 53%;
+    font-family: Amoreiza;
+}
+
+.addMoreReactions:hover {
+    cursor: pointer;
+    color: #62ABF0;
+}
+
+.arrow-left {
+    position: absolute;
+    left: 18%;
+    top: 32%;
+}
+
+.arrow-left:hover {
+    cursor: pointer;
+}
+
+.arrow-right {
+    position: absolute;
+    left: 78%;
+    top: 32%;
+}
+
+.arrow-right:hover {
+    cursor: pointer;
+}

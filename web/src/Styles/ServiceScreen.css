@@ -1,0 +1,103 @@
+.serviceServicesContainer {
+    /* background-color: rgb(6; 91; 91); */
+    padding-top: 3%;
+    width: 85.5%;
+    margin-left: 7.5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.serviceServiceContainer {
+    background-color: #282A4F;
+    width: 26.66%;
+    margin-bottom: 5%;
+    border-radius: 24px;
+}
+
+.serviceServiceContainer:hover {
+    /* cursor: pointer; */
+    background-color: #363860;
+}
+
+.serviceServiceContainer2 {
+    background-color: #282A4F;
+    width: 26.66%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    border-radius: 24px;
+}
+
+.serviceServiceContainer2:hover {
+    /* cursor: pointer; */
+    background-color: #363860;
+}
+
+.serviceTitle {
+    margin-left: 5%;
+    margin-right: 15%;
+    overflow-wrap: break-word;
+    margin-top: -3%;
+}
+
+.serviceDescription {
+    margin-left: 5%;
+    margin-right: 5%;
+    overflow-wrap: break-word;
+    position: relative;
+    /* margin-top: -3%; */
+}
+
+.button {
+    background-color: #62ABF0;
+    width: 10%;
+    height: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 85%;
+    left: 80%;
+    border-radius: 25px;
+    position: fixed;
+    z-index: 9999;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #4A5CAA;
+}
+
+.validateReactionOutlook:hover {
+    cursor: pointer;
+}
+/* 
+.chooseActionOrReaction {
+    
+} */
+
+.chooseActionOrReaction:hover {
+    cursor: pointer;
+}
+
+
+
+
+.variablesContainer {
+    display: flex;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    background-color: #62ABF0;
+    border-radius: 10px;
+    font-size: 120%;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.variablesContainer:hover {
+    cursor: pointer;
+    background-color: #4A5CAA
+}
