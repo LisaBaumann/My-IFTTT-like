@@ -9,10 +9,7 @@ The purpose of this project is to create a web/mobile application running on eve
 <figure><img src=".gitbook/assets/logo.png" alt=""><figcaption></figcaption></figure>
 
 
-
-{% hint style="info" %}
 **Epitech rules :** this project has to be done by a group from 4 to 5 students, and  it should be run and build using Docker.
-{% endhint %}
 
 
 ## General informations
