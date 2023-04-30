@@ -1,57 +1,77 @@
-# server
+---
+description: Epitech project 2023
+---
 
-[![Nest Logo](https://nestjs.com/img/logo-small.svg)](http://nestjs.com/)
+# 🔗 Action REAction (AREA)
 
-A progressive [Node.js](http://nodejs.org) framework for building efficient and scalable server-side applications.
+The purpose of this project is to create a web/mobile application running on every browser and smartphone that replicates the behavior of Zappier and IFTTT applications.
 
-[![NPM Version](https://img.shields.io/npm/v/@nestjs/core.svg)](https://www.npmjs.com/\~nestjscore) [![Package License](https://img.shields.io/npm/l/@nestjs/core.svg)](https://www.npmjs.com/\~nestjscore) [![NPM Downloads](https://img.shields.io/npm/dm/@nestjs/common.svg)](https://www.npmjs.com/\~nestjscore) [![CircleCI](https://img.shields.io/circleci/build/github/nestjs/nest/master)](https://circleci.com/gh/nestjs/nest) [![Coverage](https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9)](https://coveralls.io/github/nestjs/nest?branch=master) [![Discord](https://img.shields.io/badge/discord-online-brightgreen.svg)](https://discord.gg/G7Qnnhy) [![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer) [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor) [![](https://img.shields.io/badge/Donate-PayPal-ff3f59.svg)](https://paypal.me/kamilmysliwiec) [![Support us](https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg)](https://opencollective.com/nest#sponsor) [![](https://img.shields.io/twitter/follow/nestframework.svg?style=social\&label=Follow)](https://twitter.com/nestframework)
 
-### Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-### Installation
 
-```bash
-$ npm install
-```
+<figure><img src=".gitbook/assets/logo.png" alt=""><figcaption></figcaption></figure>
 
-### Running the app
 
-```bash
-# development
-$ npm run start
 
-# watch mode
-$ npm run start:dev
+{% hint style="info" %}
+**Epitech rules :** this project has to be done by a group from 4 to 5 students, and  it should be run and build using Docker.
+{% endhint %}
 
-# production mode
-$ npm run start:prod
-```
+{% content-ref url="fundamentals/references.md" %}
+[references.md](fundamentals/references.md)
+{% endcontent-ref %}
 
-### Test
+## General informations
 
-```bash
-# unit tests
-$ npm run test
+This project is segmented into several parts developed in different languages:
 
-# e2e tests
-$ npm run test:e2e
+* Server (Nest JS)
+* Web application (React JS)
+* Mobile application (React Native)
+* Database (MongoDB)
+* Compilation (Docker)
 
-# test coverage
-$ npm run test:cov
-```
+{% content-ref url="fundamentals/getting-set-up.md" %}
+[getting-set-up.md](fundamentals/getting-set-up.md)
+{% endcontent-ref %}
 
-### Support
+## How it works ?
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+<figure><img src=".gitbook/assets/schema (2).png" alt=""><figcaption><p>Project architecture schema</p></figcaption></figure>
 
-### Stay in touch
+## Overview
 
-* Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-* Website - [https://nestjs.com](https://nestjs.com/)
-* Twitter - [@nestframework](https://twitter.com/nestframework)
+{% content-ref url="overview/what-is-it.md" %}
+[what-is-it.md](overview/what-is-it.md)
+{% endcontent-ref %}
 
-### License
+{% content-ref url="overview/features.md" %}
+[features.md](overview/features.md)
+{% endcontent-ref %}
 
-Nest is [MIT licensed](server/LICENSE/).
+## Documentation details
+
+{% content-ref url="documentations/server.md" %}
+[server.md](documentations/server.md)
+{% endcontent-ref %}
+
+{% content-ref url="documentations/application.md" %}
+[application.md](documentations/application.md)
+{% endcontent-ref %}
+
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
+
+{% content-ref url="documentations/database.md" %}
+[database.md](documentations/database.md)
+{% endcontent-ref %}
+
+## Authors
+
+* Baumann Lisa
+* Vandevelde Paul
+* Boussadia Yasmine
+* Le Juez Mathys
+* Grégoire Raphaël
