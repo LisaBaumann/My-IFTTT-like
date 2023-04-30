@@ -26,7 +26,7 @@ Complete documentation available on : https://epitech-11.gitbook.io/area/
 
 ## How it works ?
 
-<figure><img src=".gitbook/assets/schema (2).png" alt=""><figcaption><p>Project architecture schema</p></figcaption></figure>
+<figure><img src=".gitbook/assets/schema (2).png" alt=""><figcaption></figcaption></figure>
 
 
 ## Authors
