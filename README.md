@@ -1,7 +1,3 @@
----
-description: Epitech project 2023
----
-
 # 🔗 Action REAction (AREA)
 
 The purpose of this project is to create a web/mobile application running on every browser and smartphone that replicates the behavior of Zappier and IFTTT applications.
@@ -50,23 +46,6 @@ This project is segmented into several parts developed in different languages:
 [features.md](overview/features.md)
 {% endcontent-ref %}
 
-## Documentation details
-
-{% content-ref url="documentations/server.md" %}
-[server.md](documentations/server.md)
-{% endcontent-ref %}
-
-{% content-ref url="documentations/application.md" %}
-[application.md](documentations/application.md)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-{% content-ref url="documentations/database.md" %}
-[database.md](documentations/database.md)
-{% endcontent-ref %}
 
 ## Authors
 
